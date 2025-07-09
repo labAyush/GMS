@@ -29,7 +29,7 @@ git clone <your-repository-url>
 cd <your-repository-folder>
 
 
-> Replace <your-repository-url> with the actual URL of your GitHub repository.
+>https://github.com/labAyush/GMS
 
 STEP 2: INSTALL A C++ COMPILER
 
