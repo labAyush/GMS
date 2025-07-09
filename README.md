@@ -24,12 +24,9 @@ STEP 1: CLONE THE REPOSITORY
 
 First, get the project code from GitHub. Open a terminal (like Command Prompt or Git Bash) and run this command:
 
-Generated bash
-git clone <your-repository-url>
-cd <your-repository-folder>
+git clone https://github.com/labAyush/GMS
+cd GMS
 
-
->https://github.com/labAyush/GMS
 
 STEP 2: INSTALL A C++ COMPILER
 
@@ -39,14 +36,9 @@ Install MSYS2: Go to the MSYS2 website and run the installer.
 
 Install MinGW Toolchain: After installation, an MSYS2 terminal will open. Run the following command:
 
-Generated bash
+
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Bash
-IGNORE_WHEN_COPYING_END
+
 
 Press Enter to select the default (all packages) and Y to confirm.
 
@@ -64,14 +56,9 @@ Click New, paste the path (C:\msys64\ucrt64\bin), and click OK on all windows.
 
 Verify the Installation: Open a new Command Prompt and type the following command. You should see the compiler version details.
 
-Generated cmd
 g++ --version
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Cmd
-IGNORE_WHEN_COPYING_END
+
+
 STEP 3: RUN IN VISUAL STUDIO CODE
 
 Open Project Folder: In VS Code, go to File > Open Folder... and open the project folder you cloned in Step 1.
